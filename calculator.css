@@ -1,0 +1,199 @@
+/* input[type="text"] {
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    border-color: lightcoral;
+}
+
+input[type="button"] {
+    border-radius: 10px;
+    background-color: lightcoral;
+    color: white;
+    border-color: lightcoral;
+    width: 100%;
+}
+
+body{
+    background-color: yellow;
+    background-position: center;
+    top: 50%;
+    left: 50%;
+}
+
+table{
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+} */
+
+/* .area {
+    text-align: center;
+    font-size: 6.5em;
+    color: #fff;
+    letter-spacing: -7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    animation: blur .75s ease-out infinite;
+    text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+    }
+
+    @keyframes blur {
+    from {
+    text-shadow:0px 0px 10px #fff,
+        0px 0px 10px #fff, 
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #7B96B8,
+        0px 0px 150px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px -10px 100px #7B96B8,
+        0px -10px 100px #7B96B8;
+    }
+    }
+ */
+ body {
+	background: url( https://images.pexels.com/photos/139306/pexels-photo-139306.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb ) no-repeat;
+  background-size: cover;
+}
+
+.casio {
+	display: inline;
+	font-size: 26px;
+	font-weight: bold;
+	color: #9A9DA5;
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: 1px;
+}
+
+.container {
+	width: 400px;
+	background: #242632;
+	overflow: hidden;
+	border-bottom-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	margin: 0 auto;
+    box-shadow: 0px 10px 19px rgba(49,49,49, .5);
+}
+
+.display-container {
+	padding: 20px;
+	width: 310px;
+	margin-left: 16px;
+	padding-bottom: 0px;
+}
+
+.display-container .model {
+	display: block;
+	font-family: 'Times New Roman';
+	color: #9A9DA5;
+	text-indent: 12px;
+}
+
+.display {
+	clear: both;
+	padding: 20px;
+	background: #9EB3AF;
+	font-family: digital;
+	font-size: 24px;
+	border: 10px inset rgba(179, 158, 173,0.22);
+	text-align: right;
+	letter-spacing: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.solar {
+	border: 5px inset #293C46;
+	background: #46463C;
+	width: 100px;
+	height: 30px;
+	float: right;
+	margin-bottom: 10px;
+}
+
+.solar span {
+	border-right: 2px solid #31342C;
+	width: 23.01px;
+	height: inherit;
+	display: block;
+	float: left;
+}
+
+button {
+	background: #2C303B;
+	color: white;
+	border: 3px solid #191B21;
+	font-family: 'Montserrat', sans-serif;
+	padding: 5px;
+	margin: 5px;
+	font-size: 27px;
+	min-width: 70px;
+	min-height: 50px;
+	cursor: pointer;
+	float: left;
+	border-radius: 5px;
+	outline: none;
+	border-radius: 10px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+button:hover{
+	background: #fff;
+	color:#2C303B;
+}
+
+.input-container {
+	overflow: hidden;
+	padding: 20px;
+	padding-top: 0;
+	border: 15px solid #242632;
+	border-top: 0;
+	border-bottom: 0;
+	padding-bottom: 50px;
+}
+
+.commandNum-container {
+	float: left;
+}
+
+.number-container {
+	clear: left;
+	border-radius: 30px;
+}
+
+.command-container button {
+  background: #4B494E;
+}
+
+.command-container {
+	overflow: hidden;
+	float: left;
+}
+
+.calc-container {
+	overflow: hidden;
+	float: left;
+}
+
+.command-container button:first-child {
+	background: #6B5BA4;
+	font-size: 20px;
+}
+
+.operator-container span:first-child button,
+.command-container button:last-child {
+	background: #E38F4F;
+	color: #fff;
+}
